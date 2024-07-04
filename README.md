@@ -97,7 +97,7 @@ Output:
 
 From browser
 
-http://<IP of the Machine>:31115
+http://<IP_of_the_Machine>:31115
 
 Output:
 
