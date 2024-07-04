@@ -55,6 +55,8 @@ grep -q 'net.bridge.bridge-nf-call-iptables = 1' /etc/sysctl.conf || echo "net.b
 
 ### Start Minikube from non root user
 sudo /usr/local/bin/minikube start --driver=none  --bootstrapper=kubeadm --extra-config=scheduler.address=0.0.0.0 --extra-config=controller-manager.address=0.0.0.0 --kubernetes-version=v1.23.4
+
+sudo mv /root/.kube /root/.minikube $HOME
    
 sudo chown -R $USER:$USER $HOME/.kube $HOME/.minikube
 
