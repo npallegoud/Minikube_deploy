@@ -1,6 +1,6 @@
 ##########
 
-Minikube Setup:
+**Minikube Setup**
 
 ###    Install Dependencies
 
@@ -68,7 +68,7 @@ sudo systemctl enable kubelet.service
 
 ################
 
-Deployment
+**Deployment**
 
 ################
 
@@ -103,4 +103,20 @@ Output:
 
 ![image](https://github.com/npallegoud/Minikube_deploy/assets/76092758/cbf505db-76f4-4ce3-b4b2-2f254bb62e72)
 
+
+**App Test**
+
+Download the apptest.sh 
+
+**sudo chmod 777 apptest.sh**
+
+**./apptest.sh**
+
+Passed Testcase Output:
+
+![image](https://github.com/npallegoud/Minikube_deploy/assets/76092758/40a70895-f4f3-49e8-b5ba-189b9bbac138)
+
+Failed Testcase Output:
+
+![image](https://github.com/npallegoud/Minikube_deploy/assets/76092758/487e1951-cbe4-410b-8729-6a7cdcc7959b)
 
